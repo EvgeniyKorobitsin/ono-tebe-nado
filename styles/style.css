@@ -140,7 +140,7 @@
   letter-spacing: .6em;
 }
 
-.accent-span .last-letter {
+.accent-span .no-letter-spacing {
   letter-spacing: 0;
 }
 
@@ -239,7 +239,7 @@
 
 .card {
   position: relative;
-  z-index: -2;
+  z-index: 1;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
